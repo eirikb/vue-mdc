@@ -45,7 +45,8 @@ This way all the loaders are loaded, and `node_modules` is added to include path
 
 ## Code
 
-Here is an example of how to use the [linear progress component](https://material.io/components/web/catalog/linear-progress/):
+Here is an example of how to use the [button](https://material.io/components/web/catalog/buttons) 
+including [ripple effect](https://material.io/components/web/catalog/ripples).
 
 ``` html
 <template>
