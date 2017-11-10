@@ -45,8 +45,22 @@ This way all the loaders are loaded, and `node_modules` is added to include path
 
 ## Code
 
-Here is an example of how to use the [button](https://material.io/components/web/catalog/buttons) 
-including [ripple effect](https://material.io/components/web/catalog/ripples).
+Here is an example of how to use the [button](https://material.io/components/web/catalog/buttons)
+
+``` html
+<template>
+  <button class="mdc-button" @click="$emit('click')">
+    <slot></slot>
+  </button>
+</template>
+
+<style lang="scss">
+  @import '@material/button/mdc-button';
+</style>
+```
+
+If you want to include [ripple effect](https://material.io/components/web/catalog/ripples)
+you need to import `MDCRipple`, and remember to destroy it on component destroy.
 
 ``` html
 <template>
