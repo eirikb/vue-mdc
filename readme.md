@@ -10,6 +10,9 @@ add the mdc library directly. This can be be nice if a wrapper isn't sufficient 
 does not work as expected.  
 If you are looking for a wrapper, then take a look at [posva/vue-mdc](https://github.com/posva/vue-mdc) or [stasson/vue-mdc-adapter](https://github.com/stasson/vue-mdc-adapter).
 
+The demo folder contains a runnable vue webpack-simple project based on this readme.  
+To run it: `cd demo && npm i && npm run dev`.
+
 ## Install
 
 The starting point of this project is `vue-cli` using the `webpack-simple` template.
