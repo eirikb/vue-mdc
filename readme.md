@@ -49,8 +49,8 @@ Here is an example of how to use the [button](https://material.io/components/web
 
 ``` html
 <template>
-  <button class="mdc-button" @click="$emit('click')">
-    <slot></slot>
+  <button class="mdc-button" @click="someMethod">
+    Click me!
   </button>
 </template>
 
